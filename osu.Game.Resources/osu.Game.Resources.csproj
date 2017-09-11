@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>osu.Game.Resources</RootNamespace>
     <AssemblyName>osu.Game.Resources</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -44,11 +44,6 @@
     <EmbeddedResource Include="Textures\KeyCounter\key-hit.png" />
     <EmbeddedResource Include="Textures\KeyCounter\key-up.png" />
     <EmbeddedResource Include="Beatmaps\241526 Soleily - Renatus.osz" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Textures\Gameplay\Catch\fruit-catcher-fail.png" />
-    <EmbeddedResource Include="Textures\Gameplay\Catch\fruit-catcher-idle.png" />
-    <EmbeddedResource Include="Textures\Gameplay\Catch\fruit-catcher-kiai.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Shaders\sh_CircularProgressBar.fs" />
@@ -660,6 +655,11 @@
     <EmbeddedResource Include="Textures\Menu\menu-background-3.jpg" />
     <EmbeddedResource Include="Textures\Menu\menu-background-4.jpg" />
     <EmbeddedResource Include="Textures\Menu\menu-background-5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Textures\Play\Catch\fruit-catcher-fail.png" />
+    <EmbeddedResource Include="Textures\Play\Catch\fruit-catcher-idle.png" />
+    <EmbeddedResource Include="Textures\Play\Catch\fruit-catcher-kiai.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
